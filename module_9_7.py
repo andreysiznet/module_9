@@ -6,7 +6,7 @@ def is_prime(func):
             if summ % i == 0:
                 return f'Составное\n {summ}'
         else:
-            return f'Простое \n {summ}'
+            return f'Простое\n {summ}'
 
     return wrapper
 
